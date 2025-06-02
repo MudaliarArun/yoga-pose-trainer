@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2D4A19A12DEB9A3F00A42DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4A19892DEB9A3B00A42DDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4A19902DEB9A3B00A42DDB;
+			remoteInfo = YogaPoseTrainer;
+		};
+		2D4A19AB2DEB9A3F00A42DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4A19892DEB9A3B00A42DDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4A19902DEB9A3B00A42DDB;
+			remoteInfo = YogaPoseTrainer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D4A19912DEB9A3B00A42DDB /* YogaPoseTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YogaPoseTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4A19A02DEB9A3F00A42DDB /* YogaPoseTrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogaPoseTrainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4A19AA2DEB9A3F00A42DDB /* YogaPoseTrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YogaPoseTrainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2DAAFA622DED35E800E64328 /* Exceptions for "YogaPoseTrainer" folder in "YogaPoseTrainer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2D4A19902DEB9A3B00A42DDB /* YogaPoseTrainer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2D2800162DEBAC8A0015F14B /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2D28001C2DEBAD2E0015F14B /* Extensions */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2D4A19932DEB9A3B00A42DDB /* YogaPoseTrainer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2DAAFA622DED35E800E64328 /* Exceptions for "YogaPoseTrainer" folder in "YogaPoseTrainer" target */,
+			);
+			path = YogaPoseTrainer;
+			sourceTree = "<group>";
+		};
+		2D4A19A32DEB9A3F00A42DDB /* YogaPoseTrainerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = YogaPoseTrainerTests;
+			sourceTree = "<group>";
+		};
+		2D4A19AD2DEB9A3F00A42DDB /* YogaPoseTrainerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = YogaPoseTrainerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D4A198E2DEB9A3B00A42DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4A199D2DEB9A3F00A42DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4A19A72DEB9A3F00A42DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D4A19882DEB9A3B00A42DDB = {
+			isa = PBXGroup;
+			children = (
+				2D28001C2DEBAD2E0015F14B /* Extensions */,
+				2D2800162DEBAC8A0015F14B /* Resources */,
+				2D4A19932DEB9A3B00A42DDB /* YogaPoseTrainer */,
+				2D4A19A32DEB9A3F00A42DDB /* YogaPoseTrainerTests */,
+				2D4A19AD2DEB9A3F00A42DDB /* YogaPoseTrainerUITests */,
+				2D4A19922DEB9A3B00A42DDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D4A19922DEB9A3B00A42DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D4A19912DEB9A3B00A42DDB /* YogaPoseTrainer.app */,
+				2D4A19A02DEB9A3F00A42DDB /* YogaPoseTrainerTests.xctest */,
+				2D4A19AA2DEB9A3F00A42DDB /* YogaPoseTrainerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D4A19902DEB9A3B00A42DDB /* YogaPoseTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4A19B42DEB9A3F00A42DDB /* Build configuration list for PBXNativeTarget "YogaPoseTrainer" */;
+			buildPhases = (
+				2D4A198D2DEB9A3B00A42DDB /* Sources */,
+				2D4A198E2DEB9A3B00A42DDB /* Frameworks */,
+				2D4A198F2DEB9A3B00A42DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2D2800162DEBAC8A0015F14B /* Resources */,
+				2D28001C2DEBAD2E0015F14B /* Extensions */,
+				2D4A19932DEB9A3B00A42DDB /* YogaPoseTrainer */,
+			);
+			name = YogaPoseTrainer;
+			productName = YogaPoseTrainer;
+			productReference = 2D4A19912DEB9A3B00A42DDB /* YogaPoseTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D4A199F2DEB9A3F00A42DDB /* YogaPoseTrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4A19B72DEB9A3F00A42DDB /* Build configuration list for PBXNativeTarget "YogaPoseTrainerTests" */;
+			buildPhases = (
+				2D4A199C2DEB9A3F00A42DDB /* Sources */,
+				2D4A199D2DEB9A3F00A42DDB /* Frameworks */,
+				2D4A199E2DEB9A3F00A42DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4A19A22DEB9A3F00A42DDB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2D4A19A32DEB9A3F00A42DDB /* YogaPoseTrainerTests */,
+			);
+			name = YogaPoseTrainerTests;
+			productName = YogaPoseTrainerTests;
+			productReference = 2D4A19A02DEB9A3F00A42DDB /* YogaPoseTrainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D4A19A92DEB9A3F00A42DDB /* YogaPoseTrainerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4A19BA2DEB9A3F00A42DDB /* Build configuration list for PBXNativeTarget "YogaPoseTrainerUITests" */;
+			buildPhases = (
+				2D4A19A62DEB9A3F00A42DDB /* Sources */,
+				2D4A19A72DEB9A3F00A42DDB /* Frameworks */,
+				2D4A19A82DEB9A3F00A42DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4A19AC2DEB9A3F00A42DDB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2D4A19AD2DEB9A3F00A42DDB /* YogaPoseTrainerUITests */,
+			);
+			name = YogaPoseTrainerUITests;
+			productName = YogaPoseTrainerUITests;
+			productReference = 2D4A19AA2DEB9A3F00A42DDB /* YogaPoseTrainerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D4A19892DEB9A3B00A42DDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2D4A19902DEB9A3B00A42DDB = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2D4A199F2DEB9A3F00A42DDB = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2D4A19902DEB9A3B00A42DDB;
+					};
+					2D4A19A92DEB9A3F00A42DDB = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2D4A19902DEB9A3B00A42DDB;
+					};
+				};
+			};
+			buildConfigurationList = 2D4A198C2DEB9A3B00A42DDB /* Build configuration list for PBXProject "YogaPoseTrainer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D4A19882DEB9A3B00A42DDB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2D4A19922DEB9A3B00A42DDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D4A19902DEB9A3B00A42DDB /* YogaPoseTrainer */,
+				2D4A199F2DEB9A3F00A42DDB /* YogaPoseTrainerTests */,
+				2D4A19A92DEB9A3F00A42DDB /* YogaPoseTrainerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D4A198F2DEB9A3B00A42DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4A199E2DEB9A3F00A42DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4A19A82DEB9A3F00A42DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4A198D2DEB9A3B00A42DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4A199C2DEB9A3F00A42DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4A19A62DEB9A3F00A42DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D4A19A22DEB9A3F00A42DDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4A19902DEB9A3B00A42DDB /* YogaPoseTrainer */;
+			targetProxy = 2D4A19A12DEB9A3F00A42DDB /* PBXContainerItemProxy */;
+		};
+		2D4A19AC2DEB9A3F00A42DDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4A19902DEB9A3B00A42DDB /* YogaPoseTrainer */;
+			targetProxy = 2D4A19AB2DEB9A3F00A42DDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D4A19B22DEB9A3F00A42DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = AC2NBA8V5T;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D4A19B32DEB9A3F00A42DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = AC2NBA8V5T;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D4A19B52DEB9A3F00A42DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC2NBA8V5T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YogaPoseTrainer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "YogaPose Trainer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to detect yoga poses";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.yogapose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D4A19B62DEB9A3F00A42DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC2NBA8V5T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YogaPoseTrainer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "YogaPose Trainer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to detect yoga poses";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.yogapose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D4A19B82DEB9A3F00A42DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC2NBA8V5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.yogapose.demoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YogaPoseTrainer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YogaPoseTrainer";
+			};
+			name = Debug;
+		};
+		2D4A19B92DEB9A3F00A42DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC2NBA8V5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.yogapose.demoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YogaPoseTrainer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YogaPoseTrainer";
+			};
+			name = Release;
+		};
+		2D4A19BB2DEB9A3F00A42DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC2NBA8V5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.yogaposeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YogaPoseTrainer;
+			};
+			name = Debug;
+		};
+		2D4A19BC2DEB9A3F00A42DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC2NBA8V5T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.yogaposeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YogaPoseTrainer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D4A198C2DEB9A3B00A42DDB /* Build configuration list for PBXProject "YogaPoseTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4A19B22DEB9A3F00A42DDB /* Debug */,
+				2D4A19B32DEB9A3F00A42DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4A19B42DEB9A3F00A42DDB /* Build configuration list for PBXNativeTarget "YogaPoseTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4A19B52DEB9A3F00A42DDB /* Debug */,
+				2D4A19B62DEB9A3F00A42DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4A19B72DEB9A3F00A42DDB /* Build configuration list for PBXNativeTarget "YogaPoseTrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4A19B82DEB9A3F00A42DDB /* Debug */,
+				2D4A19B92DEB9A3F00A42DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4A19BA2DEB9A3F00A42DDB /* Build configuration list for PBXNativeTarget "YogaPoseTrainerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4A19BB2DEB9A3F00A42DDB /* Debug */,
+				2D4A19BC2DEB9A3F00A42DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D4A19892DEB9A3B00A42DDB /* Project object */;
+}

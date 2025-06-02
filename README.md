@@ -23,3 +23,7 @@ To run the app locally:
 Clone the repo  
    ```bash
    git clone https://github.com/MudaliarArun/yoga-pose-trainer.git
+
+
+## Attributions
+Icon made by Freepik from www.flaticon.com
