@@ -3,7 +3,7 @@ A smart yoga companion app that helps you perfect your yoga practice using AI-po
 
 ## Features
 
-- **Real-time Pose Detection & Correction:** Utilizes Google ML Kit Pose Detection SDK to analyze your posture live and provide instant corrective feedback.
+- **Real-time Pose Detection & Correction:** Utilizes VISION Framework to analyze your posture live and provide instant corrective feedback.
 - **Personalized Yoga Pose Library:** Includes a variety of yoga poses with logic to verify correctness and required hold duration.
 - **Performance Tracking & Reports:** Generates in-app reports highlighting your strengths and areas for improvement, with images illustrating pose accuracy.
 - **User-Friendly Interface:** Simple, clear visuals and instructions to guide you step-by-step through each posture.
@@ -12,7 +12,7 @@ A smart yoga companion app that helps you perfect your yoga practice using AI-po
 ## Tech Stack
 
 - **iOS App:** Built with Swift and SwiftUI
-- **Pose Detection:** Google ML Kit Pose Detection SDK
+- **Pose Detection:** Vision Framework
 - **Data Storage:** Local storage for session data and performance reports
 - **Reporting:** Custom logic for pose correctness and duration validation
 
